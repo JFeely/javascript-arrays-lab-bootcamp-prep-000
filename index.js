@@ -34,6 +34,6 @@ function prependKitten(name){
 
 function removeLastKitten(){
   var removeArray = 
-  removeArray.shift()
+  removeArray.pop()
   return removeArray
 }
